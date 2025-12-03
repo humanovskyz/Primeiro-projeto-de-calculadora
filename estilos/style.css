@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #141414;
+    background: radial-gradient(circle, rgba(20, 20, 20, 1) 0%, rgba(56, 56, 56, 1) 100%);
+}
+
+/* header */
+
+header{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+}
+header nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+header nav a:hover{
+    text-shadow: 4px 4px 30px rgba(255, 255, 255, 2);
+    font-size: 23px;    
+    letter-spacing: 1px;
+}
+
+.container{
+    background-color: white;
+    padding: 70px 20px;
+    align-items: center;
+    margin: 30px 30px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 16px black;
+}
+.container select{
+    font-size: 20px;
+    background-color: #141414;
+    color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.container select:hover{
+    border-color: #a8a8a8;
+}
+.container select:focus{
+    border-color: #141414;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
+}
+.container select:active{
+    max-height: 300px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+.operacoesespaco input{
+    font-size: 35px;
+    border-radius: 10px;
+    border-color: #141414;
+    outline: none;
+}
+button{
+    font-size: 40px;
+    margin-top: 40px;
+    background-color: #141414;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 5px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: #007bff;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.6); 
+    color: white;
+    border-color: black;
+    font-size: 43px;
+}
+button:active{
+    font-size: 40px;
+    transition: all 0s;
+}

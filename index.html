@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraProjeto</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora online</h1>
+        <nav>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="operacoesespaco">
+                <h2>Primeiro número:</h2> <input type="number" id="numeroUm" placeholder="Número">
+                <br>
+                <h2>Segundo número:</h2> <input type="number" id="numeroDois" placeholder="Número">
+                <br>
+            </div>
+            <br>
+            selecione a operação:
+            <select id="operacoes">
+                <option value="multiplicacao">Multiplicação</option>
+                <option value="divisao">Divisão</option>
+                <option value="soma">Soma</option>
+                <option value="subtracao">Subtração</option>
+            </select>
+            <br>
+            <p id="resposta"></p>
+            <button id="calcular">Calcular</button>
+        </div>
+        
+    </main>
+</body>
+<script src="script/script.js"></script>
+</html>
